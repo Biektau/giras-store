@@ -1,0 +1,36 @@
+.sliderContainer {
+    min-height: calc(100vh - 80px - 10px - 10px);
+    gap: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .btn {
+        cursor: pointer;
+        border: 3px solid #2b2d42;
+        min-width: 50px;
+        min-height: 50px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+
+        svg {
+
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+    }
+
+    .slideImg {
+        border-radius: 30px;
+        width: auto;
+        max-height: 75vh;
+        object-fit: cover;
+        box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+    }
+}

@@ -1,0 +1,74 @@
+.container {
+    cursor: pointer;
+    text-decoration: none;
+    height: 510px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 10px;
+    border-radius: 20px;
+    position: relative;
+    background-color: #fff;
+    transition: 0.25s ease-in-out;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+    .price {
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-color: #227C9D;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 20px 0px 20px 0px;
+        font-weight: bold;
+        transition: 0.25s ease-in-out;
+    }
+
+    &:hover {
+        
+
+        .title {
+            color: #FE6D73;
+            background-color: #FFCB77;
+        }
+        .price{
+            color: #FE6D73;
+            background-color: #FFCB77;
+        }
+    }
+
+    .mainImg {
+        object-fit: cover;
+        width: 250px;
+        border-radius: 20px;
+        max-height: 450px;
+    }
+
+    .empty {
+        height: 450px;
+        width: 250px;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #FE6D73;
+        font-weight: bold;
+
+    }
+
+    .title {
+        padding: 10px;
+        min-height: 40px;
+        min-width: 220px;
+        border-radius: 20px;
+        transition: 0.25s ease-in-out;
+        display: flex;
+        background-color: #227C9D;
+        color: #fff;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+    }
+}

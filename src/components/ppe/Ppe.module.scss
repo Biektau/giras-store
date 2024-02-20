@@ -1,0 +1,102 @@
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .controllerBox {
+        min-height: 60px;
+        width: 100%;
+        padding: 0px 15px;
+        background-color: #17C3B2;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        font-size: 16px;
+
+        .labels {
+            display: flex;
+            flex-wrap: wrap;
+
+            gap: 20px;
+            height: 100%;
+
+            label {
+
+                align-items: center;
+                padding: 5px;
+                color: #fff;
+                display: flex;
+                gap: 10px;
+                font-weight: bold;
+
+                select {
+                    border: none;
+                    cursor: pointer;
+                    font-size: 16px;
+                    border-radius: 5px;
+                    padding: 8px;
+
+                    option {
+                        cursor: pointer;
+                    }
+
+                    &:focus {
+                        outline: none;
+                    }
+                }
+            }
+
+        }
+
+        .searchBlock {
+            display: flex;
+            gap: 10px;
+            cursor: pointer;
+            align-items: center;
+            height: 35px;
+            width: 300px;
+            border: 1px solid #fff;
+            border-radius: 10px;
+            background-color: #fff;
+            padding: 0px 10px;
+
+            .searchIcon {
+                color: #227C9D;
+            }
+
+            .deleteIcon {
+                color: #FE6D73;
+            }
+
+            input {
+                color: #227C9D;
+                border: none;
+                background-color: transparent;
+                height: 100%;
+                font-size: 16px;
+                flex: 1;
+
+                &:focus {
+                    outline: none;
+                }
+            }
+        }
+
+    }
+
+    .cards {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 20px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        // background-color: #fff;
+        background-image: url("../../assets/background.svg");
+        background-size: cover;
+
+    }
+}

@@ -1,0 +1,52 @@
+.container {
+    overflow-y: auto;
+    background-image: url("../../assets/background.svg");
+    background-size: cover;
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+
+
+    overflow-y: auto;
+
+    .backBtn {
+
+        text-align: center;
+
+        text-decoration: none;
+        padding: 10px;
+        width: 100%;
+        border-radius: 10px;
+        color: #fff;
+        font-weight: bold;
+        background-color: #FFCB77;
+    }
+
+
+    .fields {
+        display: flex;
+        border-radius: 20px;
+        flex-direction: column;
+        gap: 5px;
+        flex: 1;
+        overflow-y: auto;
+        background-color: #fff;
+        box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+        .dataLine {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            font-size: 18px;
+            border-bottom: 2px solid #eeee;
+            .fieldName{
+                font-weight: bold;
+                color: #282828;
+            }
+            .fieldValue{
+                color: #414141;
+            }
+        }
+    }
+
+}
