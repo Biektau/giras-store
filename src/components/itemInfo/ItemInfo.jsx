@@ -16,7 +16,7 @@ export default function ItemInfo() {
   useEffect(() => {
     try {
       axios
-        .get(`https://girasbackend.onrender.com/${type}/getOne/${id}`)
+        .get(`https://giras-backend-ruzal-02.amvera.io/${type}/getOne/${id}`)
         .then((res) => {
           setItem(res.data);
         });

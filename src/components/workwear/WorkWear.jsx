@@ -46,7 +46,7 @@ export default function WorkWear() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetchData("https://girasbackend.onrender.com/workWear/get");
+    fetchData("https://giras-backend-ruzal-02.amvera.io/workWear/get");
   }, []);
 
   async function fetchData(url) {

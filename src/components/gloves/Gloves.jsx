@@ -34,7 +34,7 @@ export default function Gloves() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetchData("https://girasbackend.onrender.com/gloves/get");
+    fetchData("https://giras-backend-ruzal-02.amvera.io/gloves/get");
   }, []);
 
   async function fetchData(url) {

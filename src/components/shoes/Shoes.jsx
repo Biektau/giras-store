@@ -37,7 +37,7 @@ export default function Shoes() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetchData("https://girasbackend.onrender.com/shoes/get");
+    fetchData("https://giras-backend-ruzal-02.amvera.io/shoes/get");
   }, []);
 
   async function fetchData(url) {

@@ -35,7 +35,7 @@ export default function Ppe() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetchData("https://girasbackend.onrender.com/ppe/get");
+    fetchData("https://giras-backend-ruzal-02.amvera.io/ppe/get");
   }, []);
 
   async function fetchData(url) {
